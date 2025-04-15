@@ -2,6 +2,12 @@
 
 Fork from [chuckcharlie/cups-avahi-airprint](), which was a fork of [quadportnick/docker-cups-airprint](https://github.com/quadportnick/docker-cups-airprint)
 
+## Aims of this fork
+
+- [ ] Reduce the image size - At the moment all build deps are included in the final image
+- [ ] Make the container work nicer in Kubernetes installations
+- [ ] Allow for further configuration customization (device name, description)
+
 ## Configuration
 
 ### Volumes:
